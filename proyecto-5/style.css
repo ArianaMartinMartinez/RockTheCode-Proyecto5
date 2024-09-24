@@ -3,12 +3,43 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /*color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #242424;*/
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --white: #FFFAFA;
+  --black: #1B1B1B;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+#app {
+  display: flex;
+}
+
+header {
+  width: 40%;
+}
+
+main {
+  width: 60%;
 }
