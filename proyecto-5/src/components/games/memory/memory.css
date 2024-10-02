@@ -1,0 +1,50 @@
+body {
+   margin: 0;
+   overflow: hidden;
+}
+
+#game {
+   height: 100vh;
+   max-height: 700px;
+   display: flex;
+   flex-wrap:wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.card {
+   width: 100px;
+   height: 140px;
+   margin: 1rem;
+   position: relative;
+   transition: transform 0.5s;
+   transform-style: preserve-3d;
+}
+ 
+.card.active {
+   transform: rotateY(180deg);
+}
+ 
+.card div {
+   width: 100%;
+   height: 100%;
+   border-radius: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+   backface-visibility: hidden;
+   pointer-events: none;
+}
+ 
+.card .face {
+   background: #05d1fe;
+   transform: rotateY( 180deg );
+   color: black;
+   font-size: 6rem;
+}
+ 
+.card .back {
+   border: 3px solid #05d1fe;
+   background-color: #05d1fe;
+}
