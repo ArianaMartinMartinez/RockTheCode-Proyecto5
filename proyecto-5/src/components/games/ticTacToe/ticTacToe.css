@@ -1,0 +1,12 @@
+#box {
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+}
+
+#sectionGame {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 600px;
+    margin: auto;
+}
