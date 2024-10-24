@@ -14,6 +14,9 @@
 
   --white: #FFFAFA;
   --black: #1B1B1B;
+  --lightBlue: #5DA9E9;
+  --blue: #003F91;
+  --purple: #6D326D;
 }
 
 * {
@@ -38,8 +41,20 @@ a {
 
 header {
   width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--purple);
 }
 
 main {
+  background-color: var(--lightBlue);
   width: 60%;
+  padding: 5rem;
+}
+
+body, header, main {
+  height: 100vh;
 }
