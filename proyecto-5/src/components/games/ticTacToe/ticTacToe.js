@@ -16,6 +16,7 @@ export const printTicTacToe = () => {
     h2.textContent = 'Tic Tac Toe Game';
 
     const sectionResult = document.createElement('section');
+    sectionResult.id = 'sectionResult';
 
     const articleX = document.createElement('article');
     const h4X = document.createElement('h4');

@@ -44,6 +44,7 @@ export const printHangman = () => {
     h2.textContent = 'Hangman Game';
 
     const sectionResult = document.createElement('section');
+    sectionResult.id = 'sectionResult';
 
     const articleWin = document.createElement('article');
     const h4Win = document.createElement('h4');

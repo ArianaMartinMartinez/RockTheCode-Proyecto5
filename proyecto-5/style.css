@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Syne+Mono&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -14,10 +16,7 @@
 
   --white: #FFFAFA;
   --black: #1B1B1B;
-  --red: #BA1200;
   --darkBlue: #031927;
-  --blue: #508AA8;
-  --lightBlue: #9DD1F1;
   --lightBlue: #5DA9E9;
   --blue: #003F91;
   --purple: #6D326D;
@@ -28,6 +27,9 @@
   margin: 0;
   padding: 0;
   font-family: Helvetica, sans-serif;
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
