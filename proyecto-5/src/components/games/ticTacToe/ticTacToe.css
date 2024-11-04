@@ -1,7 +1,17 @@
+:root {
+    --white: #FFFAFA;
+    --black: #1B1B1B;
+    --lightBlue: #5DA9E9;
+    --blue: #003F91;
+    --purple: #6D326D;
+}
+
 #box {
     width: 200px;
     height: 200px;
     font-size: 100px;
+    background-color: var(--white);
+    color: var(--purple);
 }
 
 #sectionGame {

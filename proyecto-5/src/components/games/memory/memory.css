@@ -1,3 +1,11 @@
+:root {
+   --white: #FFFAFA;
+   --black: #1B1B1B;
+   --lightBlue: #5DA9E9;
+   --blue: #003F91;
+   --purple: #6D326D;
+}
+
 body {
    margin: 0;
    overflow: hidden;
@@ -38,13 +46,13 @@ body {
 }
  
 .card .face {
-   background: #05d1fe;
+   background: var(--purple);
    transform: rotateY( 180deg );
-   color: black;
+   color: var(--white);
    font-size: 6rem;
 }
  
 .card .back {
-   border: 3px solid #05d1fe;
-   background-color: #05d1fe;
+   border: 3px solid var(--white);
+   background-color: var(--black);
 }
