@@ -18,6 +18,7 @@ body {
    flex-wrap:wrap;
    align-items: center;
    justify-content: center;
+   overflow-y: auto;
 }
 
 .card {
@@ -55,4 +56,20 @@ body {
 .card .back {
    border: 3px solid var(--white);
    background-color: var(--black);
+}
+
+@media (max-width: 768px) {
+   #game {
+      max-height: 500px;
+   }
+
+   .card {
+      width: 80px;
+      height: 110px;
+      margin: 0.5rem;
+   }
+
+   .card .face {
+      font-size: 3rem;
+   }
 }

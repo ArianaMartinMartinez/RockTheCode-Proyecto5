@@ -7,9 +7,9 @@
 }
 
 #box {
-    width: 200px;
-    height: 200px;
-    font-size: 100px;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
     background-color: var(--white);
     color: var(--purple);
 }
@@ -17,6 +17,7 @@
 #sectionResult {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50%;
 }
 
@@ -27,7 +28,8 @@
 
 #sectionGame {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 110px 110px 110px;
     width: 600px;
     margin: auto;
+    justify-content: center;
 }

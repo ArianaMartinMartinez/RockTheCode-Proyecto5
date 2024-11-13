@@ -8,7 +8,10 @@
 
 #word_container > ul {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
+    overflow-y: auto;
+    max-height: 200px;
 }
 
 .letter {
@@ -22,6 +25,8 @@
     gap: 20px;
     font-size: 25px;
     text-align: center;
+    max-height: 200px;
+    overflow-y: auto;
 }
 
 .key {
@@ -38,4 +43,19 @@
 
 #hangman_img {
     border-radius: 10%;
+}
+
+@media (max-width: 768px) {
+    .letter {
+        font-size: 30px;
+    }
+
+    #keyboard_container {
+        gap: 10px;
+        font-size: 20px;
+    }
+
+    .key {
+        width: 30px;
+    }
 }

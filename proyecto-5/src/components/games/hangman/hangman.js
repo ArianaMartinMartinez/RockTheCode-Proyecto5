@@ -69,6 +69,7 @@ export const printHangman = () => {
     sectionResult.appendChild(articleLose);
 
     const sectionGame = document.createElement('section');
+    sectionGame.id = 'sectionGameHangman';
 
     const articleImg = document.createElement('article');
     articleImg.id = 'img_container';

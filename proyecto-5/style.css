@@ -68,3 +68,18 @@ main {
 body, header, main {
   height: 100vh;
 }
+
+@media (max-width: 768px) {
+  #app {
+    flex-direction: column;
+  }
+
+  header, main {
+    width: 100%;
+    height: auto;
+  }
+
+  main {
+    padding: 2rem;
+  }
+}
